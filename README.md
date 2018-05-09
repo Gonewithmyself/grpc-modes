@@ -13,12 +13,12 @@ $GOPATH
 └── grpc
     ├── simple			// 简单模式 RPC
     │   ├── client	
-    │   │   └── client.go		# 客户端代码
+    │   │   └── client.go	# 客户端代码
     │   ├── proto			
     │   │   ├── user.pb.go	
-    │   │   └── user.proto		# 通信的 protobuf 协议
+    │   │   └── user.proto	# 通信的 protobuf 协议
     │   └── server
-    │       └── server.go		# 服务端代码
+    │       └── server.go	# 服务端代码
     ├── server-side-streaming	// 服务端流式 RPC 
     ├── client-side-streaming	// 客户端流式 RPC 
     └── bidirectional-streaming	// 客户端与服务端双向流式 RPC
