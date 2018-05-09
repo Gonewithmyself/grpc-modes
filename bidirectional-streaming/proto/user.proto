@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-// 客户端数据流模式的 gRPC
-// 客户端将一段连续的数据流发送到服务端，服务端返回一个响应
+// 双向数据流模式的 gRPC
+// 客户端将连续的数据流发送到服务端，服务端返回交互的数据流
 package grpc.bidirectional.stream;
 
 // 定义 UserService 微服务
